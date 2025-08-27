@@ -1,0 +1,18 @@
+beautifulsoup4==4.13.4       # for scraping
+boto3==1.34.106              # for S3 access
+botocore==1.34.162           # for S3 access
+lxml==5.4.0                  # for HTML parsing if used
+numpy==1.24.4                # pandas dependency, general processing
+openpyxl==3.1.5              # if reading/writing Excel
+pandas==2.0.3                # data handling
+playwright==1.51.0           # scraping automation
+playwright-stealth
+psycopg2-binary==2.9.9       # PostgreSQL/Redshift driver
+pymongo==4.7.3               # if using MongoDB (optional)
+pytz==2025.2                 # timezone handling
+PyYAML==6.0.1                # config parsing if used
+RapidFuzz==3.13.0
+requests==2.32.3             # for HTTP requests
+SQLAlchemy==1.4.52           # required for pandas.to_sql to Redshift
+tqdm==4.67.1                 # progress bar for scraping, processing
+urllib3==1.26.20             # HTTP dependency for requests

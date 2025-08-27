@@ -1,0 +1,37 @@
+
+google_maps_parameter:
+  url: https://www.google.com/maps/@1.5054379,103.7636757,15z?hl=en&entry=ttu&g_ep=EgoyMDI1MDIyNC4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D
+
+
+place_parameter:
+  - state: Johor
+    districts:
+    - district: Johor Bahru
+    # - district: Batu Pahat
+    # - district: Kluang
+    # - district: Mersing
+    # - district: Muar
+    # - district: Pontian
+    # - district: Segamat
+    # - district: Tangkak
+    # - district: Kulai
+
+  - state: Selangor
+    districts:
+    - district: Gombak
+    # - district: Hulu Langat
+    # - district: Hulu Selangor
+    # - district: Klang
+    # - district: Kuala Langat
+    # - district: Kuala Selangor
+    # - district: Petaling
+    # - district: Sabak Bernam
+    # - district: Sepang
+
+  - state: Federal Territory
+    districts:
+    - district: Putrajaya
+  #   - district: Kuala Lumpur
+
+channel_parameter:
+  - channel: hotel
